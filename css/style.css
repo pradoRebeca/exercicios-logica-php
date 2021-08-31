@@ -1,0 +1,177 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+	border-bottom: 3px solid black;
+}
+
+#principal{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: inherit;
+}
+
+#iconeMenu{
+    width: 60px;
+    height: inherit;
+    float: left;
+    margin-right: 300px;
+    
+}
+
+#nomeMenu{
+    width: 280px;
+    height: inherit;
+    float: left;
+	text-align: center;
+	font-size: 2em;
+	letter-spacing: 3px;
+	font-family: verdana;
+	padding-top: 10px;
+	box-sizing: border-box;
+}
+
+
+#lista{
+    width: 230px;
+    height: 300px; 
+	background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+	padding-right: 20px;
+	padding-top: 10px;
+	text-align: center;
+	margin-top: -64px;
+}
+
+#imagemIcone{
+    width:60px;
+    height: 60px;
+}
+
+.itemLista{
+    list-style: none;
+    margin-left: 20px;
+	letter-spacing: 3px;
+	border-bottom: 1px solid #b0b0b0;
+	margin-bottom: 20px;
+	padding-bottom: 15px;
+	color: white;
+	font-size: 1.2em;
+	font-family: verdana;
+}
+
+.itemLista:hover{
+	cursor: pointer;
+ 	color: #a6ddff;
+}
+	
+
+
+#iconeMenu:hover > #lista{
+    visibility: visible;
+    opacity: 1;
+    transition: 1s;
+	margin-left: 60px;
+}
+
+#imagemIcone:hover{
+    cursor: pointer;
+}
+
+
+#sessaoMatematica{
+	width: 1300px;
+	height: 600px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#sessaoApresentacao{
+	background-image: url(../img/planoFundo2.jpg);
+	height: 500px;
+	background-attachment: fixed;
+	background-position: bottom;
+}
+
+
+
+#historiaMatematica, #nomeGenerico, #nomeGenerico2 {
+	margin-top: 100px;
+	width: 350px;
+	height: 350px;
+	background-color: aqua;
+	float: left;
+	margin-left: 60px;
+	box-sizing: border-box;
+	padding: 25px;
+	background-color: #4f91b0;
+	border-radius: 10px 10px 10px 10px;
+/*	background-color: #121f40 ;*/
+/*
+	
+	background-color:
+#e0a06e
+ 
+	background-color: #626ca8; azul
+*/
+}
+
+#nomeGenerico{
+	background-color: #101630;
+
+}
+
+#nomeGenerico2{
+	background-color: #12344a;
+}
+
+
+p{
+	font-size: 1.4em;
+	color: white;
+	padding: 20px;
+	border-bottom: 1px solid white;
+	border-top: 1px solid white;
+	box-sizing: border-box;
+
+}
+
+h2{
+	font-size: 2em;
+	color: white;
+	letter-spacing: 3px;
+	margin-bottom: 15px;
+}
+
+
+footer{
+	height: 150px;
+	width: 100%;
+	background-color: black;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+a:hover{
+	cursor: pointer;
+		color: #aad3f2;
+
+}
+
+h5{
+	color: white;
+	text-align: center;
+	padding-top: 70px;
+	
+}
+

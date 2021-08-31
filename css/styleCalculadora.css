@@ -1,0 +1,222 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+	border-bottom: 3px solid black;
+}
+
+#principal{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: inherit;
+}
+
+#iconeMenu{
+    width: 60px;
+    height: inherit;
+    float: left;
+    margin-right: 300px;
+    
+}
+
+#nomeMenu{
+    width: 280px;
+    height: inherit;
+    float: left;
+	text-align: center;
+	font-size: 2em;
+	letter-spacing: 3px;
+	font-family: verdana;
+	padding-top: 10px;
+	box-sizing: border-box;
+}
+
+
+#lista{
+    width: 230px;
+    height: 300px; 
+	background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+	padding-right: 20px;
+	padding-top: 10px;
+	text-align: center;
+	margin-top: -64px;
+}
+
+#imagemIcone{
+    width:60px;
+    height: 60px;
+}
+
+.itemLista{
+    list-style: none;
+    margin-left: 20px;
+	letter-spacing: 3px;
+	border-bottom: 1px solid #b0b0b0;
+	margin-bottom: 20px;
+	padding-bottom: 15px;
+	color: white;
+	font-size: 1.2em;
+	font-family: verdana;
+}
+
+.itemLista:hover{
+	cursor: pointer;
+ 	color: #e0a06e;
+}
+	
+
+
+#iconeMenu:hover > #lista{
+    visibility: visible;
+    opacity: 1;
+    transition: 1s;
+	margin-left: 60px;
+	z-index: 99999;
+	position: absolute;
+		
+}
+
+#imagemIcone:hover{
+    cursor: pointer;
+}
+
+
+form{
+    border: 3px solid black;
+    width: 900px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 100px;
+	border-radius: 10px 10px 10px 10px;
+	margin-bottom: 200px;
+}
+ 
+
+#numero{
+    width: inherit;
+    height: 200px;
+}
+
+
+.valor{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+#operacoes{
+    padding-left: 60px;
+    width: inherit;
+    height: 50px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#resultado{
+	border: 1px solid black;
+	border-radius: 10px 10px 10px 10px;
+    font-size: 3em;
+    text-align: center;
+    padding-top: 10px;
+    width: 800px;
+    height: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+#calcular{
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100px;
+    margin-right: 10px; 
+    margin-left: 150px;
+    float: left;
+    height: inherit;
+}
+
+.opcao{
+    margin-right: 50px;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+a:hover{
+	cursor: pointer;
+ 	color: #aad3f2;
+}
+
+
+#btnFormatar{
+	height: 40px;
+	width: 120px;
+	margin-top: 20px;
+	font-family: verdana;
+	font-size: 1em;
+	float: left;
+}
+
+#reset{
+        width: 120px;
+        height: 40px;
+        background-color:  #121f40;
+        text-align: center;
+        padding-top: 10px;
+        box-sizing: border-box;
+        border: 1px solid black;
+		font-family: verdana;
+		font-size: 1em;
+		float: left;
+		margin-top: 20px;
+		border-radius: 5px 5px 5px 5px;
+		margin-left: 30px;
+	
+}
+
+#organizarSessao{
+	width: 270px;
+	height: 80px;
+	margin-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+label{
+	font-size: 1.5em;
+	letter-spacing: 5px;
+}
+
+.estiloInput{
+	height: 30px;
+	width: 200px;
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid black;
+	font-family: verdana;
+}
+
+h5{
+	color: white;
+	text-align: center;
+	padding-top: 70px;
+	
+}
+
+footer{
+	height: 150px;
+	width: 100%;
+	background-color: black;
+}

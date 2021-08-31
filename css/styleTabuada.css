@@ -1,0 +1,179 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+header{
+    width: 100%;
+    height: 60px;
+	border-bottom: 3px solid black;
+}
+
+#principal{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: inherit;
+}
+
+#iconeMenu{
+    width: 60px;
+    height: inherit;
+    float: left;
+    margin-right: 300px;
+    
+}
+
+#nomeMenu{
+    width: 280px;
+    height: inherit;
+    float: left;
+	text-align: center;
+	font-size: 2em;
+	letter-spacing: 3px;
+	font-family: verdana;
+	padding-top: 10px;
+	box-sizing: border-box;
+}
+
+
+#lista{
+    width: 230px;
+    height: 300px; 
+	background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+	padding-right: 20px;
+	padding-top: 10px;
+	text-align: center;
+	margin-top: -64px;
+}
+
+#imagemIcone{
+    width:60px;
+    height: 60px;
+}
+
+.itemLista{
+    list-style: none;
+    margin-left: 20px;
+	letter-spacing: 3px;
+	border-bottom: 1px solid #b0b0b0;
+	margin-bottom: 20px;
+	padding-bottom: 15px;
+	color: white;
+	font-size: 1.2em;
+	font-family: verdana;
+}
+
+
+
+#iconeMenu:hover > #lista{
+    visibility: visible;
+    opacity: 1;
+    transition: 1s;
+	margin-left: 60px;
+}
+
+#imagemIcone:hover{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+a:hover{
+	cursor: pointer;
+ 	color: #aad3f2;
+}
+
+form{
+	margin-top: 100px;
+    width: 900px;
+    min-height: 300px;
+	border-radius: 10px 10px 10px 10px;
+    border: 3px solid black;
+    margin-left: auto;
+    margin-right: auto;
+	overflow: hidden;
+	padding-top: 40px;
+}
+
+#caixaInserir{
+    width: 400px;
+    height: 200px;
+    float: left;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+
+#tabuada{
+    text-align: left;
+    width: 300px;
+    min-height: 200px;
+	overflow: hidden;
+	font-size: 1.5em;
+	padding-left: 80px;
+	float: left;
+	border: 1px solid black;
+	border-radius: 10px 10px 10px 10px;
+}
+
+
+label{
+	font-size: 1.5em;
+	letter-spacing: 5px;
+}
+    
+.estiloInput{
+	height: 30px;
+	width: 200px;
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid black;
+	font-family: verdana;
+}
+
+
+#btnFormatar{
+	height: 40px;
+	width: 120px;
+	margin-top: 20px;
+	font-family: verdana;
+	font-size: 1em;
+	margin-left: 20px;
+}
+
+#reset{
+        width: 120px;
+        height: 40px;
+        background-color:  #121f40;
+        text-align: center;
+        padding-top: 10px;
+        box-sizing: border-box;
+        border: 1px solid black;
+		font-family: verdana;
+		font-size: 1em;
+		float: left;
+		margin-top: 20px;
+		border-radius: 5px 5px 5px 5px;
+		margin-left: 30px;
+
+
+	
+}
+
+.organizarSessao{
+	width: inherit;
+	height: 80px;
+	float: left;
+}
+
+
