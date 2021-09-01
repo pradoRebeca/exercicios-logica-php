@@ -7,7 +7,6 @@ require_once("functions/errosPagina.php");
     $nota3 = (double) null;
     $nota4 = (double) null;
     
-    
     /* Valida se o botão calcular foi acionado */
     if(isset($_POST["btnCalcular"])){
         
@@ -35,7 +34,7 @@ require_once("functions/errosPagina.php");
 <html lang="pt-BR"> 
     <head>
         <meta charset="utf-8">
-        <title> Atividade </title>
+        <title> Calcular Média | Atividade PHP </title>
         
         <link rel="stylesheet"
               type="text/css"

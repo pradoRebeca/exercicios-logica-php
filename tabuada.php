@@ -27,12 +27,12 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title> Title </title>
+	<title> Tabuada | Atividade PHP </title>
     <link href="css/styleTabuada.css"
           rel="stylesheet"
           type="text/css">
@@ -117,8 +117,9 @@
 		</form>
 	
 	<footer>
-			<h5>
-				Esse site foi criado por Rebeca Nascimento Prado, aluna no Senai Jandira. Projeto da matéria Back-end, ministrada pelo professor Marcel. </h5>
-		</footer>
+		<h5>
+			Esse site foi criado por Rebeca Nascimento Prado, aluna no Senai Jandira. Projeto da matéria Back-end, ministrada pelo professor Marcel. 
+		</h5>
+	</footer>
 </body>
 </html>

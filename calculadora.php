@@ -6,17 +6,12 @@
     $valor1 = (double) null;
     $valor2 = (double) null;
     $operacao = (string) null;
-    $chkSomar = (string) null;
-    $chkS = (string) null;
-    $chkM = (string) null;
-    
   
     if(isset($_POST["btnCalcular"])){  
     
         if($_POST["txtValor1"] == "" || $_POST["txtValor2"] == ""){
             echo(ERRO_CAIXA_VAZIA);
         } else {
-			
             $valor1 = $_POST["txtValor1"];
             $valor2 = $_POST["txtValor2"];
             
@@ -38,11 +33,13 @@
 
 ?>
 
-<html>
+<!DOCTYPE html>
+<html lang="pt-BR">
     <head>
-        <title> Atividade </title>
+		<meta charset="utf-8">
+        <title> Calculadora | Atividade PHP </title>
         <link 
-             rel="stylesheet"
+            rel="stylesheet"
             type="text/css"
             href="css/styleCalculadora.css">
     </head>
@@ -50,7 +47,7 @@
 		  <header>
             <div id="principal">
                 <div id="iconeMenu">
-						<img id="imagemIcone" src="img/menu.png">
+					<img id="imagemIcone" src="img/menu.png">
                     
                     <div id="lista">
                        <ul>
@@ -58,24 +55,26 @@
 							   <a href="paginaInicial.html">
 							   		Pagina Inicial
 							   </a>
-						   		
 						   </li>
+						   
                             <li class="itemLista">
 								<a href="calculadora.php">
 									Calculadora
 								</a>
 							</li>
+						   
                             <li class="itemLista"> 
 								<a href="calculoMedia.php">
                             		 Médias 
                         		</a>
-						
 							</li>
+						   
                             <li class="itemLista"> 
 								<a href="tabuada.php">
 									Tabuada 
 								</a>
 							</li>
+						   
                             <li class="itemLista">
 								<a href="parImpar.php">
 									Par ou Impar 
@@ -113,7 +112,6 @@
                             <input  class="opcao"  type="radio" name="rdoOperacao"  value="multiplicar" <?= $operacao == "MULTIPLICAR" ? "checked" : "" ?> >
                            
                             <label> Dividr </label>
-                            <!--  ternario -> expressão lógica ? verdadeiro : falso -->
                             <input class="opcao"  type="radio" name="rdoOperacao" value="dividir" <?= $operacao == "DIVIDIR" ? "checked" : "" ?> >
                     </div>
                     
@@ -126,17 +124,16 @@
 								Novo Calculo 
 							</a>
 						</div>
-						
 					</div>
-				
                 </div>
 				
-				
+				<!--Exibir a média -->
                 <div id="resultado">  <?=$resultado?> </div>
             </form>
        <footer>
 			<h5>
-				Esse site foi criado por Rebeca Nascimento Prado, aluna no Senai Jandira. Projeto da matéria Back-end, ministrada pelo professor Marcel. </h5>
+				Esse site foi criado por Rebeca Nascimento Prado, aluna no Senai Jandira. Projeto da matéria Back-end, ministrada pelo professor Marcel. 
+		   </h5>
 		</footer>
     </body>
 </html>

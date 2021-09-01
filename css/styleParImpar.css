@@ -199,3 +199,17 @@ p{
 	margin-right: auto;
 	
 }
+
+h5{
+	color: white;
+	text-align: center;
+	padding-top: 70px;
+	
+}
+
+footer{
+	height: 150px;
+	width: 100%;
+	background-color: black;
+	margin-top: 150px;
+}
