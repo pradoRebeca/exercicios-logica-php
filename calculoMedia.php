@@ -23,7 +23,7 @@ require_once("functions/errosPagina.php");
                 $media = ($nota1 + $nota2 + $nota3 + $nota4) / 4;
             }
              else {
-                 echo(ERRO_NAO_NUMERICO);
+                 echo(ERRO_DADOS_NAO_NUMERICOS);
              }
         }
     }
@@ -34,7 +34,7 @@ require_once("functions/errosPagina.php");
 <html lang="pt-BR"> 
     <head>
         <meta charset="utf-8">
-        <title> Calcular Média | Atividade PHP </title>
+        <title> Calcular Média - Atividade PHP </title>
         
         <link rel="stylesheet"
               type="text/css"
@@ -129,7 +129,8 @@ require_once("functions/errosPagina.php");
             </form>
        <footer>
 			<h5>
-				Esse site foi criado por Rebeca Nascimento Prado, aluna no Senai Jandira. Projeto da matéria Back-end, ministrada pelo professor Marcel. </h5>
+				Esse site foi criado por Rebeca Nascimento Prado, aluna no Senai Jandira. Projeto da matéria Back-end, ministrada pelo professor Marcel. 
+		   </h5>
 		</footer>
     </body>
 </html>

@@ -21,7 +21,7 @@
 					}									
 
 			 } else {
-			 	echo(ERRO_NAO_NUMERICO);
+			 	echo(ERRO_DADOS_NAO_NUMERICOS);
 			 }
 		 }
 ?>
@@ -32,7 +32,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title> Tabuada | Atividade PHP </title>
+	<title> Tabuada - Atividade PHP </title>
     <link href="css/styleTabuada.css"
           rel="stylesheet"
           type="text/css">

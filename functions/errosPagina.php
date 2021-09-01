@@ -4,7 +4,7 @@
 
     const ERRO_NUMERO_IGUAL = "<script> alert('Não é possivel inserir números iguais. Por favor, selecione outro números') </script>";
 
-    const ERRO_NAO_NUMERICO = "<script> alert('Não é possível calcular com dados não númericos') </script>";
+    const ERRO_DADOS_NAO_NUMERICOS = "<script> alert('Não é possível calcular com dados não númericos') </script>";
     
     const ERRO_MULTIPLICACAO_ZERO =  "<script> alert('Qualquer número multiplicado por zero, vai ter como resultado zero') </script>"; 
     

@@ -1,6 +1,8 @@
 <?php
 
     require_once("functions/calculos.php");
+    require_once("functions/errosPagina.php");
+
        
     $resultado = (double) null;
     $valor1 = (double) null;
@@ -37,7 +39,7 @@
 <html lang="pt-BR">
     <head>
 		<meta charset="utf-8">
-        <title> Calculadora | Atividade PHP </title>
+        <title> Calculadora - Atividade PHP </title>
         <link 
             rel="stylesheet"
             type="text/css"
@@ -132,7 +134,7 @@
             </form>
        <footer>
 			<h5>
-				Esse site foi criado por Rebeca Nascimento Prado, aluna no Senai Jandira. Projeto da matéria Back-end, ministrada pelo professor Marcel. 
+				Esse site foi criado por Rebeca Nascimento Prado, aluna no Senai Jandira. Projeto da matéria Back-end, ministrada pelo professor Marcel.
 		   </h5>
 		</footer>
     </body>

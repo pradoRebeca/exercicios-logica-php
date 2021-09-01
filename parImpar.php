@@ -52,7 +52,7 @@ require_once("functions/calculos.php");
 <!DOCTYPE html>
 <html lang="pt-BR">
 	<head>
-		<title> Par ou Impar | Atividade PHP </title>
+		<title> Par ou Impar - Atividade PHP </title>
         <link href="css/styleParImpar.css"
               rel="stylesheet"
               type="text/css">
@@ -104,7 +104,7 @@ require_once("functions/calculos.php");
 			<div id="caixaInserir">
 				<label> Número Inicial </label>
                 <select class="estiloInput" name="sltInicial"> 
-					<option value=""> Selecione um Número </option>
+					<option value="" selected> Selecione um Número </option>
 					<?php 
 						$cont = (int) 0;
 
@@ -116,7 +116,7 @@ require_once("functions/calculos.php");
 				
 				<label> Número Final </label>
                 <select class="estiloInput"  name="sltFinal"> 
-                	<option value=""> Selecione um número </option>
+                	<option value="" selected> Selecione um número </option>
 						<?php
                            $cont = (int) 0;
                            for($cont = 100 ; $cont <= 1000; $cont++){
