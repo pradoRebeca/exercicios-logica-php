@@ -15,37 +15,34 @@ require_once("functions/calculos.php");
 	$exibirQuantidadeImpar = (int) null;
 
 
-    if(isset($_POST["btnCalcular"])){
-		$valorIncial = $_POST['sltInicial'];
-        $valorFinal = $_POST["sltFinal"];
+    if ( isset ( $_POST [ "btnCalcular" ])) {
+		$valorIncial = $_POST[ "sltInicial"];
+        $valorFinal = $_POST[ "sltFinal"];
 		
-    if($valorIncial == "" || $valorFinal == ""){
-        echo(ERRO_CAIXA_VAZIA);
+    if ( $valorIncial == "" || $valorFinal == "" ) {
+        echo ( ERRO_CAIXA_VAZIA );
     } else {
-        if($valorIncial > $valorFinal){
-            echo(ERRO_INICAL_MAIOR);
+        if ( $valorIncial >= $valorFinal ) {
+            echo (  ERRO_NUMERO_IGUAL_MAIOR );
 			
-        } elseif ($valorInicial == $valorFinal){
-			echo(ERRO_NUMERO_IGUAL);
-			
-		} else {
-			for($cont = $valorIncial ; $cont <= $valorFinal ; $cont++){
-				$resultado = $cont % 2;
+			} else {
+			 for( $cont = $valorIncial ; $cont <= $valorFinal ; $cont ++) {
+				$resultado = $cont % 2 ;
 
-				if($resultado == 0){
-				   $resultadoPar = $resultadoPar . $cont . "<br>";
+				if ( $resultado == 0 ) {
+				   $resultadoPar = $resultadoPar . $cont . "<br>" ;
 				   $exibirQuantidadePar = $exibirQuantidadePar + 1 ;
 					
 				} else {
-					$resultadoImpar = $resultadoImpar . $cont . "<br>";
+					$resultadoImpar = $resultadoImpar . $cont . "<br>" ;
 					$exibirQuantidadeImpar = $exibirQuantidadeImpar + 1 ;	
 				}
-			 } //término laço for
-        }// término else 
+			 } // término laço para
+			} // término else
 		
-    }//término erro da caixa vazia
-}//validação do botão submit
- 
+    } // término erro da caixa vazia
+} // validação do botão submit
+
 ?>
 
 
@@ -158,3 +155,5 @@ require_once("functions/calculos.php");
 		</footer>
 	</body>
 </html>
+
+
